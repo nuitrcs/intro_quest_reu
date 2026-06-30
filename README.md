@@ -25,8 +25,7 @@ and run it.
 # 3. Look at your Quest job history
 - Try running the following commands:
 `sacct -X`
-`sacct -X --format=jobid,jobname%20,account,partition,submit,elapsed,s
-tate,nodelist'
+`sacct -X --format=jobid,jobname%20,account,partition,submit,elapsed,state,nodelist`
 `seff <ONE_OF_YOUR_RECENT_JOBIDS>`
 `checkjob <ONE_OF_YOUR_RECENT_JOBIDS>`
 
